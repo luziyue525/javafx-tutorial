@@ -30,6 +30,9 @@ public class Main extends Application {
 
             fxmlLoader.<MainWindow>getController().setDuke(duke);
 
+            stage.setMinHeight(220);
+            stage.setMinWidth(417);
+
             stage.show();
 
         } catch (IOException e) {
